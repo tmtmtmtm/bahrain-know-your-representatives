@@ -18,30 +18,23 @@ response:
     message: OK
   headers:
     Date:
-    - Tue, 17 Jan 2017 13:11:33 GMT
+    - Tue, 24 Jan 2017 15:40:00 GMT
     Content-Type:
-    - text/html; charset=utf-8
+    - text/html
     Content-Length:
-    - '161722'
+    - '6237'
     Connection:
     - keep-alive
     Server:
     - Apache/2
-    X-Powered-By:
-    - PHP/5.3.29
-    Set-Cookie:
-    - 53f94ae28286625d467fde6c991deb78=a286e6b7f0e52ae3f4a798cf78f304e0; path=/
-    P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
-    Cache-Control:
-    - no-cache
-    Pragma:
-    - no-cache
+    Last-Modified:
+    - Wed, 14 Aug 2013 16:29:25 GMT
     Accept-Ranges:
     - bytes
+    - bytes
     Age:
-    - '1'
+    - '0'
   body:
-    encoding: ASCII-8BIT
+    encoding: UTF-8
   http_version: 
-recorded_at: Tue, 17 Jan 2017 13:11:34 GMT
+recorded_at: Tue, 24 Jan 2017 15:40:00 GMT
