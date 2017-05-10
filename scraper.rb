@@ -29,5 +29,5 @@ def scrape_list(url)
   end
 end
 
-ScraperWiki.sqliteexecute('DELETE FROM data') rescue nil
+ScraperWiki.sqliteexecute('DROP TABLE data') rescue nil
 scrape_list('http://www.citizensforbahrain.com/index.php/entry/know-your-deputy-jamila-al-sammak-12th-northern')
