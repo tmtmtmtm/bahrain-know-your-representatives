@@ -31,4 +31,4 @@ def scrape_list(url)
 end
 
 ScraperWiki.sqliteexecute('DROP TABLE data') rescue nil
-scrape_list('http://www.citizensforbahrain.com/index.php/entry/know-your-deputy-jamila-al-sammak-12th-northern')
+scrape_list('https://www.citizensforbahrain.com/index.php/entry/know-your-deputy-jamila-al-sammak-12th-northern')
