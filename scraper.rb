@@ -25,6 +25,7 @@ def scrape_list(url)
       source: p.xpath('following-sibling::p[a]/a/@href').first.text,
     }
     %i[source].each { |i| data[i] = URI.join(url, URI.encode(data[i])).to_s unless data[i].to_s.empty? }
+    puts data.reject { |_, v| v.to_s.empty? }.sort_by { |k, _| k }.to_h if ENV['MORPH_DEBUG']
     ScraperWiki.save_sqlite(%i[name area term], data)
   end
 end
