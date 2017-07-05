@@ -1,0 +1,45 @@
+---
+request:
+  method: get
+  uri: https://www.citizensforbahrain.com/index.php/entry/know-your-deputy-jamila-al-sammak-12th-northern
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - "*/*"
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Wed, 05 Jul 2017 10:56:19 GMT
+    Content-Type:
+    - text/html; charset=utf-8
+    Content-Length:
+    - '149794'
+    Connection:
+    - keep-alive
+    Server:
+    - Apache/2
+    X-Powered-By:
+    - PHP/5.3.29
+    Set-Cookie:
+    - 53f94ae28286625d467fde6c991deb78=54e5c4615b80c226112fa7db4bd04085; path=/; secure
+    P3p:
+    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+    Cache-Control:
+    - no-cache
+    Pragma:
+    - no-cache
+    Age:
+    - '3'
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Wed, 05 Jul 2017 10:56:19 GMT
