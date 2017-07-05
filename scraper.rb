@@ -24,8 +24,8 @@ def scrape_list(url)
       term:   2014,
       source: p.xpath('following-sibling::p[a]/a/@href').first.text,
     }
-    %i(source).each { |i| data[i] = URI.join(url, URI.encode(data[i])).to_s unless data[i].to_s.empty? }
-    ScraperWiki.save_sqlite(%i(name area term), data)
+    %i[source].each { |i| data[i] = URI.join(url, URI.encode(data[i])).to_s unless data[i].to_s.empty? }
+    ScraperWiki.save_sqlite(%i[name area term], data)
   end
 end
 
