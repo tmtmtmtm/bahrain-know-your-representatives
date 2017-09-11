@@ -18,11 +18,11 @@ response:
     message: OK
   headers:
     Date:
-    - Sun, 10 Sep 2017 12:51:16 GMT
+    - Mon, 11 Sep 2017 03:19:40 GMT
     Content-Type:
     - text/html; charset=utf-8
     Content-Length:
-    - '149798'
+    - '149794'
     Connection:
     - keep-alive
     Server:
@@ -30,7 +30,7 @@ response:
     X-Powered-By:
     - PHP/5.3.29
     Set-Cookie:
-    - 53f94ae28286625d467fde6c991deb78=6737d1e6e1c0112231deaf5538b22c19; path=/; secure
+    - 53f94ae28286625d467fde6c991deb78=d836afbb0c6d91becf4d88eef125068f; path=/; secure
     P3p:
     - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
     Cache-Control:
@@ -38,8 +38,8 @@ response:
     Pragma:
     - no-cache
     Age:
-    - '2'
+    - '1'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sun, 10 Sep 2017 12:51:16 GMT
+recorded_at: Mon, 11 Sep 2017 03:19:40 GMT
