@@ -17,29 +17,23 @@ response:
     code: 200
     message: OK
   headers:
-    Date:
-    - Fri, 09 Mar 2018 12:12:30 GMT
     Content-Type:
-    - text/html; charset=utf-8
-    Content-Length:
-    - '149800'
+    - text/html
     Connection:
-    - keep-alive
-    Server:
-    - Apache/2
-    X-Powered-By:
-    - PHP/5.3.29
-    Set-Cookie:
-    - 53f94ae28286625d467fde6c991deb78=13c76ee60bb242e6174d28a0e7162c44; path=/; secure
-    P3p:
-    - CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+    - close
+    - close
     Cache-Control:
     - no-cache
-    Pragma:
-    - no-cache
-    Age:
-    - '2'
+    Content-Length:
+    - '2886'
+    X-Iinfo:
+    - 8-42100964-0 0NNN RT(1520694270322 231) q(0 -1 -1 0) r(0 -1) B10(4,289,0) U18
+    Set-Cookie:
+    - incap_ses_225_1637525=Nh01XbSAvSOANzYSs10fA/7zo1oAAAAADFcBOMUtJC/ni4KChe6w6g==;
+      path=/; Domain=.citizensforbahrain.com
+    - visid_incap_1637525=rx0w3VzORzW0sW5ZJvFTg/7zo1oAAAAAQUIPAAAAAACm0UG44X25iUKpVBZEoDiV;
+      expires=Sun, 10 Mar 2019 12:41:08 GMT; path=/; Domain=.citizensforbahrain.com
   body:
-    encoding: ASCII-8BIT
+    encoding: UTF-8
   http_version: 
-recorded_at: Fri, 09 Mar 2018 12:12:30 GMT
+recorded_at: Sat, 10 Mar 2018 15:04:31 GMT
